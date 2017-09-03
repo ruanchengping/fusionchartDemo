@@ -1,0 +1,27 @@
+﻿<chart palette='2' caption='' yAxisName='' xAxisName='' xAxisMaxValue='100'
+ xAxisMinValue='20' yAxisMaxValue='7'>
+
+   <categories verticalLineColor='666666' verticalLineThickness='1'>
+      <category label='保本工作量(2,127.44万)' x='21274402.99078035' showVerticalLine='1'/>
+     
+   </categories>
+
+   <dataset seriesName='业务收入' color='009900' anchorSides='3' anchorRadius='4' anchorBgColor='D5FFD5' anchorBorderColor='009900' drawLine="1">
+      <set y='0' x='0' />
+      <set y='407714744.1965461' x='21274402.99078035' toolText=" " />
+      <set y='426999901.46' x='22280695.29' toolText="工作量(2,228.07万),收入(42,699.99万)" />
+      <set y='611572116.2948191' x='31911604.486170523' toolText=" " />
+      
+   </dataset>
+   <dataset seriesName='总成本' color='009900' anchorSides='3' anchorRadius='4' anchorBgColor='skyblue' anchorBorderColor='blue' drawLine="1">
+      <set y='159317351.460342' x='0' />
+      <set y='407714744.1965461' x='21274402.99078035' toolText=" " />
+      <set y='419464093.10025' x='22280695.29' toolText="工作量(2,228.07万),总成本(41,946.41万)" />
+      <set y='531913440.5646481' x='31911604.486170523' toolText=" " />
+      
+   </dataset>
+   <trendlines>
+      <line startValue='407714744.1965461' displayValue='保本收入(40,771.47万)' color='#FF0000' dashed='1' />
+      <line startValue='159317351.460342' displayValue='固定成本(15,931.74万)' color='#FF8C00' thickness='1' />
+   </trendlines>
+</chart>
